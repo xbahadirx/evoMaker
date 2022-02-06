@@ -1,0 +1,49 @@
+slm
+
+özetle çalýþma þu þekilde; bi program var, iki data dosyasý alýp
+çalýþtýrýp sonuç veriyor. bizim iþimiz data dosyalarýný kullanýcý
+tabanlý bi web servisiyle alýp run tuþuna basmaya kadar getirmek.
+
+
+kullanýcý modülü bildiðimiz gibi. sql sütunlarý username, pass, ad,
+soyad, enstitü, email.. gerekirse dahada uzatýlabilir.
+bu bilgileri girip üye olacak. her üye için kendi adýyla bi klasör oluþturulacak
+üye olanlar login olduktan sonra mevcut datasetlerinin bulunduðu
+sayfaya yönlendirilecek.
+
+yeni dataset upload ederken dataset adýyla beraber iki adet dosya
+isteyecek, name(data labellarý), value (data)
+bu dosyalarý alýp kullanýcý klasörü altýnda ayrý bir klasöre
+kopyalayacak. bide istersen veritabanýnda falan tutabilirsin.
+datasetlerin listelendiði sayfada yeni dataset ekleme formu olsun
+(dataset adý, value dosyasý, name dosyasý)
+bide seçilen dataseti sonra yollýycaðýmýz parametrelerle bi formun
+içine koy, bide run butonu. o kadar.
+
+bi demo kullanýcý gibi biþi aç, datasetleri hazýr olucak, herkes girip
+koþturabilicek ama data dosyalarý silinemeyecek.
+
+modül modül yap, geliþtirmeye uygun olsun. ilerde kullanýcý sayfasý,
+iþlem durumu falan geliþtirilecek.
+
+dizin yapýsý:
+
+ yasin klasörü
+  -data1 klasörü
+    -value.txt
+    -name.txt
+  -data2 klasörü
+    -value.txt
+    -name.txt
+
+gibi
+
+
+4-5 günde biterse güzel olur
+1 aðustosta açýlcak demiþler
+senden sonra biriki deðiþiklik burda yapýcaklar
+
+
+hayde kolay gelsin
+selametle
+
