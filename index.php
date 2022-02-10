@@ -1,8 +1,6 @@
 <?php
 /* ===============================
 == Basic PHP/MySQL Authentication 
-== by x0x 
-== Email: x0x@ukshells.co.uk
 ================================*/
 //error_reporting ("E_ALL & ~E_NOTICE");
 include_once("inc/lang.tr.php");
